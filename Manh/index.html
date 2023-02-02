@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Giỏ hàng</title>
+        <link rel="stylesheet" href="./style.css">
+        <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- head -->
+        <div class="head">
+            <div class="sub-head">
+                <div>Hotline:
+                    <b>
+                        0966 158 666</b>(8h -12h, 13h30- 17h)</div>
+                <div class="line"></div>
+                <div class="contact">Liên hệ hợp tác</div>
+                <div class="sub-head-right">
+                    <div>Tìm kiếm cửa hàng</div>
+                    <div class="line"></div>
+                    <div>Kiểm tra đơn hàng</div>
+                    <div class="line"></div>
+                    <a href="https://www.amazon.com/">Mua hàng tại amazone</a>
+                </div>
+            </div>
+            <div class="main-head">
+                <div class="left">
+                    <a href="http://127.0.0.1:5501/Trang%20chu/trangchu.html"><img src="../Trang chu//img/logo.JPG" alt="logo"/></a>
+                </div>
+                <ul class="center">
+                    <li>
+                        <a href="">Về biti's</a>
+                    </li>
+                    <li>
+                        <a href="http://127.0.0.1:5501/DepNam/depnam.html">Nam</a>
+                    </li>
+                    <li>
+                        <a href="">Nữ</a>
+                    </li>
+                    <li>
+                        <a href="">Trẻ em</a>
+                    </li>
+                    <li>
+                        <a href="">Khuyến mãi</a>
+                    </li>
+                    <li>
+                        <a href="">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="">Green Biti's</a>
+                    </li>
+                </ul>
+                <div class="right">
+                    <div class="box">
+                        <input type="search" class="searchbox" placeholder="Bạn cần tìm gì"/>
+                        <i class="glass fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="miniicon">
+                        <div>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <a href="http://127.0.0.1:5500/Thu/thanhtoan.html">
+                            <i class="fa-solid fa-bag-shopping bags"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <!-- Slider -->
+                <!-- <div id="demo" class="carousel slide" data-bs-ride="carousel"> -->
+                <!-- Slider-button-bot -->
+                <!-- <div class="carousel-indicators">
+                                                                                                                                                                                                                                              <button
+                                                                                                                                                                                                                                                type="button"
+                                                                                                                                                                                                                                                data-bs-target="#demo"
+                                                                                                                                                                                                                                                data-bs-slide-to="0"
+                                                                                                                                                                                                                                                class="active"
+                                                                                                                                                                                                                                              ></button>
+                                                                                                                                                                                                                                              <button
+                                                                                                                                                                                                                                                type="button"
+                                                                                                                                                                                                                                                data-bs-target="#demo"
+                                                                                                                                                                                                                                                data-bs-slide-to="1"
+                                                                                                                                                                                                                                              ></button>
+                                                                                                                                                                                                                                              <button
+                                                                                                                                                                                                                                                type="button"
+                                                                                                                                                                                                                                                data-bs-target="#demo"
+                                                                                                                                                                                                                                                data-bs-slide-to="2"
+                                                                                                                                                                                                                                              ></button>
+                                                                                                                                                                                                                                              <button
+                                                                                                                                                                                                                                                type="button"
+                                                                                                                                                                                                                                                data-bs-target="#demo"
+                                                                                                                                                                                                                                                data-bs-slide-to="3"
+                                                                                                                                                                                                                                              ></button>
+                                                                                                                                                                                                                                            </div> -->
+
+                <!-- The slideshow -->
+                <!-- <div class="carousel-inner">
+                                                                                                                                                                                                                                              <div class="carousel-item active">
+                                                                                                                                                                                                                                                <img
+                                                                                                                                                                                                                                                  src="./img/head.JPG"
+                                                                                                                                                                                                                                                  alt="Los Angeles"
+                                                                                                                                                                                                                                                  class="d-block"
+                                                                                                                                                                                                                                                  style="width: 100%"
+                                                                                                                                                                                                                                                />
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                              <div class="carousel-item">
+                                                                                                                                                                                                                                                <img
+                                                                                                                                                                                                                                                  src="./img/head1.JPG"
+                                                                                                                                                                                                                                                  alt="Chicago"
+                                                                                                                                                                                                                                                  class="d-block"
+                                                                                                                                                                                                                                                  style="width: 100%"
+                                                                                                                                                                                                                                                />
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                              <div class="carousel-item">
+                                                                                                                                                                                                                                                <img
+                                                                                                                                                                                                                                                  src="./img/head2.JPG"
+                                                                                                                                                                                                                                                  alt="New York"
+                                                                                                                                                                                                                                                  class="d-block"
+                                                                                                                                                                                                                                                  style="width: 100%"
+                                                                                                                                                                                                                                                />
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                              <div class="carousel-item">
+                                                                                                                                                                                                                                                <img
+                                                                                                                                                                                                                                                  src="./img/head3.JPG"
+                                                                                                                                                                                                                                                  alt="New York"
+                                                                                                                                                                                                                                                  class="d-block"
+                                                                                                                                                                                                                                                  style="width: 100%"
+                                                                                                                                                                                                                                                />
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                        </div> -->
+                <!-- slider-text -->
+                <!-- <div class="slider-text">
+                                                                                                                                                                                                                                          <div id="slider-text" class="carousel slide" data-bs-ride="carousel"> -->
+                <!-- The slideshowtext -->
+                <!-- <div class="carousel-inner">
+                                                                                                                                                                                                                                              <div class="carousel-item active">
+                                                                                                                                                                                                                                                <strong>Hỗ trợ đổi size</strong
+                                                                                                                                                                                                                                                ><span> Tại tất cả cửa hàng trong vòng 1 tuần!</span>
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                              <div class="carousel-item">
+                                                                                                                                                                                                                                                <strong>Miễn phí vận chuyển</strong
+                                                                                                                                                                                                                                                ><span> với hóa đơn trên 1 triệu ở Hồ Chí Minh</span>
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                              <div class="carousel-item">
+                                                                                                                                                                                                                                                <strong>Miễn phí vận chuyển</strong
+                                                                                                                                                                                                                                                ><span> với hóa đơn trên 1.5 triệu ở tất cả các tỉnh thành</span>
+                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                            </div> -->
+
+                <!-- Pre and next icon -->
+                <!-- <button
+                                                                                                                                                                                                                                              class="carousel-control-prev"
+                                                                                                                                                                                                                                              type="button"
+                                                                                                                                                                                                                                              data-bs-target="#slider-text"
+                                                                                                                                                                                                                                              data-bs-slide="prev"
+                                                                                                                                                                                                                                            >
+                                                                                                                                                                                                                                              <span class="carousel-control-prev-icon"
+                                                                                                                                                                                                                                                ><i class="fa-solid fa-angle-left pre-icon"></i
+                                                                                                                                                                                                                                              ></span>
+                                                                                                                                                                                                                                            </button>
+                                                                                                                                                                                                                                            <button
+                                                                                                                                                                                                                                              class="carousel-control-next"
+                                                                                                                                                                                                                                              type="button"
+                                                                                                                                                                                                                                              data-bs-target="#slider-text"
+                                                                                                                                                                                                                                              data-bs-slide="next"
+                                                                                                                                                                                                                                            >
+                                                                                                                                                                                                                                              <span class="carousel-control-next-icon"
+                                                                                                                                                                                                                                                ><i class="fa-solid fa-angle-right next-icon"></i
+                                                                                                                                                                                                                                              ></span>
+                                                                                                                                                                                                                                            </button>
+                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                      </div> -->
+
+                    <nav class="manh" aria-label="breadcrumb"> <ol class="breadcrumb">
+                        <li class="breadcrumb-item1">
+                            <a href="http://127.0.0.1:5500/Trang%20chu/trangchu.html">Trang chủ</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">/ <a href="http://127.0.0.1:5501/VA/index.html" style="text-decoration:none;color: grey;";>Giỏ hàng</a>  </li>
+                    </ol>
+                </nav>
+
+                <div class="container">
+                    <div class="container-left">
+                        <h2>GIỎ HÀNG CỦA BẠN</h2>
+                        <hr>
+                        <p>Bạn đang có
+                            <b>1 sản phẩm</b>
+                            trong giỏ hàng</p>
+                        <div class="table">
+                            <div>
+                                <img src="  //product.hstatic.net/1000230642/product/dem011700den__3__88c021190a4447b38869265e73a3ba7a_medium.jpg" alt="">
+                            </div>
+                            <div class="table1">
+                                <h4>Dép Eva Phun Nam Xin Sò DENXS12859974</h4>
+                                <div class="table2">
+                                    <div class="table2-1">
+                                        <span id="tienao">172</span>,000₫
+                                    </div>
+                                    <div class="table3">
+                                        <div class="table3-1">
+                                            Màu sắc :
+                                            <span data-color="đen"></span>
+                                        </div>
+                                    </div>
+                                    <div class="table3-2">
+                                        Kích thước :
+                                        <span>37</span>
+                                    </div>
+                                    <div class="media">
+                                        <button class="tong" id="btn-tru">-</button>
+                                        <span id="media-number">1</span>
+                                        <button class="tong" id="btn-cong">+</button>
+                                    </div>
+                                    <div>
+                                        <span id="gia-tien">
+                                            <b>172</b>
+                                        </span>
+                                        <span>
+                                            <b>,000₫</b>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ghichu">
+                            <label for="note" class="note-label">Ghi chú đơn hàng</label>
+                            <textarea class="ghichu2" name="not" id="not" cols="30" rows="5"></textarea>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Xuất hóa đơn cho đơn hàng
+                            </label>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="oder">
+                            <h3>THÔNG TIN ĐƠN HÀNG</h3>
+                            <hr>
+                            <div class="oder1">
+                                <p>
+                                    Tổng tiền:
+                                    <span class="oder1">
+                                        <b>,000₫</b>
+                                    </span>
+                                    <span id="tiendo">
+                                        <b>172</b>
+                                    </span>
+                                    <hr>
+                                </p>
+                                <ul>
+                                    <li>Phí vận chuyển sẽ được tính ở trang thanh toán.</li>
+                                </ul>
+                                <ul>
+                                    <li>Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.</li>
+                                </ul>
+                                <a href="http://127.0.0.1:5501/Thu/thanhtoan.html" class="btn btn-primary oder2">THANH TOÁN NGAY (Áp dụng cho Việt Nam)</a>
+                                <!-- <a href="#" class="btn btn-primary oder3">ĐẶT HÀNG QUỐC TẾ(Cho các quốc gia khác)</a> -->
+                                <p>Để nhận tư vấn hoặc hỗ trợ khi phát sinh khó khăn trong lúc mua hàng, hãy liên hệ Biti's thông
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                qua:</p>
+                                <ul>
+                                    <li>Gọi
+                                        <b>0335.087.273</b>
+                                        (Anh Thụ)</li>
+                                    <li>Email tới địa chỉ
+                                        <strong>tuvan_online@bitis.com.vn</strong>
+                                        (cho Việt Nam & quốc tế)</li>
+                                    <li class="delete-circle">For further support, please contact us via:</li>
+                                    <li>Mobile phone:
+                                        <b>
+                                            0966.158.666</b>
+                                        (for Vietnam only)</li>
+                                    <li>Email
+                                        <b>tuvan_online@bitis.com.vn</b>
+                                        (for Vietnam & worldwide order)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <div
+                    class="footer">
+                    <!-- top footer -->
+                    <div class="top-footer-text">
+                        <div>HỆ THỐNG CỬA HÀNG BITI'S</div>
+                        <div class="top-footer-box">
+                            <div class="top-footer-left">
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle city-list" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Tất cả
+                                    </a>
+                                    <ul class="dropdown-menu city-list-show" aria-labelledby="dropdownMenuLink">
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hà Nội</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hồ Chí Minh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Đà Nẵng</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">An Giang</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Bà Rịa- Vũng Tàu</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Huế</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Tây Nguyên</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Hưng Yên</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Phú Quốc</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-store">
+                                        <li>CH 47 Nguyễn Huệ - Quận 1 - HCM</li>
+                                        <hr />
+                                        <li>CH 98 Nguyễn Trãi - Quận 1 - HCM</li>
+                                        <hr />
+                                        <li>CH Chợ Lớn - Quận 6 - HCM</li>
+                                        <hr />
+                                        <li>CH 594 Thống Nhất - Gò Vấp - HCM</li>
+                                        <hr />
+                                        <li>CH 73 Xã Đàn - Đống Đa - HN</li>
+                                        <hr />
+                                        <li>CH Chuyên Biti's Núi Thành</li>
+                                        <hr />
+                                        <li>CH 282 Lê Duẩn - Hải Châu - Đà Nẵng</li>
+                                    </ul>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div class="top-footer-right">
+                                <img src="../Trang chu/img/map.JPG" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- center footer -->
+                    <div class="center-footer">
+                        <div class="center-footer-top">
+                            <div class="center-footer-top-text">
+                                <h5>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    Đăng ký nhận bản tin
+                                </h5>
+                                <h6>
+                                    Để nhận các thông tin mới từ Biti's cũng như các chương trình
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            khuyến mãi hấp dẫn
+                                </h6>
+                            </div>
+                            <div class="center-footer-top-input">
+                                <input class="input" type="email" placeholder="Vui lòng nhập email của bạn..."/>
+                                <button class="register">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="center-footer-picture">
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_1_fcccf4c902ec4c5dbffb267d55480361.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_2_eb3aab14e3c4460598b186581e14319c.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_3_4ea1528b7b6c4b768edca82c5177b63f.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_4_eff4b4e0d3e5496790737063aefc92d5.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_5_796788d0cc3c4cb8becdd4095b9657ec.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_6_cbc7d744bbad464393bbf3b378eb17e0.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_7_c8ce843f94c74e0e8e8aa51372ddf97b.jpg" alt="" />
+                            <img src="https://file.hstatic.net/200000522597/file/240x240_8_bfbc1f9a56f24921979f053befbb7d67.jpg" alt="" />
+                          </div>
+                        <div class="center-footer-bot">
+                            <ul class="footer-bot-left">
+                                <b>
+                                    VỀ BITI'S</b>
+                                <li>Về Bitis</li>
+                                <li>Câu chuyện Biti's</li>
+                                <li>Bước tiến phát triển</li>
+                                <li>Hoạt Động</li>
+                                <li>Liên hệ</li>
+                            </ul>
+                            <ul class="footer-bot-centerL">
+                                <b>
+                                    THÔNG TIN</b>
+                                <li>Trạng thái đơn hàng</li>
+                                <li>Hình thức giao hàng</li>
+                                <li>Hình thức thanh toán</li>
+                                <li>Chính sách đổi trả</li>
+                                <li>Chính sách bảo hành</li>
+                                <li>Chính sách khách hàng thân thiết</li>
+                            </ul>
+                            <ul class="footer-bot-centerR">
+                                <b>TRỢ GIÚP</b>
+                                <li>Tuyển Dụng</li>
+                                <li>Hệ thống cửa hàng</li>
+                                <li>Liên hệ hợp tác</li>
+                                <li>Q&A</li>
+                            </ul>
+                            <ul class="footer-bot-right">
+                                <img src="../Trang chu/img/logo.JPG" alt=""/>
+                                <li>
+                                    <b>
+                                        CÔNG TY TNHH SẢN XUẤT HÀNG TIÊU DÙNG BÌNH TIÊN</b>
+                                    <br/>
+                                    <b>
+                                        Địa chỉ</b>: 22 Lý Chiêu Hoàng, Phường 10, Quận 6, TP. Hồ Chí
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Minh
+                                    <br/>
+                                    <b>
+                                        Điện thoại</b>: (028)38 753 443
+                                </li>
+                                <li>
+                                    <b>
+                                        Email: Liên hệ các vấn đề về đặt hàng online :</b>
+                                    <br/>
+                                    tuvan_online@bitis.com.vn
+                                    <br/>
+                                    <b>
+                                        Email: Liên hệ các vấn đề về kênh cửa hàng, đại lý (offline) :
+                                        <br/>
+                                    </b>
+                                    chamsockhachhang@bitis.com.vn
+                                </li>
+                                <li>
+                                    <b>Hotline:</b>
+                                    19002126 ( cước phí: 3.000đ/phút )
+                                    <br/>
+                                    <b>Thời gian tư vấn:</b>
+                                    Từ 07h30 đến 12h15, 13h15 đến 21h30 các ngày trong tuần ( Trừ ngày
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Lễ, Tết)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- bottom footer -->
+                    <div class="bottom-footer">
+                        <div class="bottom-footer-left">
+                            <div class="text">
+                                <div>Điều khoản</div>
+                                <div>Chính sách bảo mật</div>
+                                <div>Hướng dẫn sử dụng</div>
+                            </div>
+                            <div style="margin-left: 33px">
+                                Copyright © 2022 Biti's. Powered by Haravan Enterprise
+                            </div>
+                        </div>
+                        <div class="bottom-footer-center">
+                            <img src="https://file.hstatic.net/1000230642/file/bocongthuong_f866573d7d9d4e7fb16d09817459d3cb.png" alt=""/>
+                        </div>
+                        <div class="bottom-footer-right">
+                            <div>
+                                Giấy CNĐKDN: 0301340497 được cấp ngày 20/01/1992, được sửa đổi lần
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      thứ 20 ngày 28/12/2015 bởi Sở Kế hoạch và Đầu tư TPHCM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </di>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+            <script src="./app.js"></script>
+        </body>
+    </body>
+</html>
